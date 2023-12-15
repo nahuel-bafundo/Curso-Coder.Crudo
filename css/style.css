@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2? family= Noto+Sans:wght@100;500 & display=swap');
+
+
+/* estilos header */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header a{
+    background-color: rgb(42, 3, 58)7%, 70% ;
+    display: flex;
+    flex-direction: column;
+    
+}
+header nav{
+    color:rgb(31, 23, 23) ;
+    background-color: rgb(250, 231, 201);
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.35);
+    width: auto;
+}
+header img{
+    width: 200px;
+    
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+.item{
+    border: solid 3px; color: black;
+    padding: 0px 5px 0px 5px;
+    margin: 20px;
+
+}
+
+}
+
+nav ul{
+    width: auto;
+
+}
+
+header a{
+    color: rgb(112, 98, 51)
+text decoration none ;
+}
+
+
+/* main de index */
+
+main img{
+    width: 40%;
+}
+
+
+
+/* estilos footer */
+
+.derechos{
+    color: black 
+    text-shadow 4px 4px 2px rgba(0,0,0,0.35);
+    padding-inline: 4%;
+}
