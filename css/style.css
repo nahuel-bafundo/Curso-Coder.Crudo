@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2? family= Noto+Sans:wght@100;500 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia&display=swap');
 
+/* font-family: 'Kalnia', serif; */
 
 /* estilos header */
 
@@ -18,23 +20,27 @@ header nav{
     color:rgb(31, 23, 23) ;
     background-color: rgb(250, 231, 201);
     text-shadow: 4px 4px 2px rgba(0,0,0,0.35);
-    width: auto;
+    padding: 20px 20px 20px 20px;
+    margin: 20px;
+    size: 30px;    
 }
 header img{
     width: 200px;
-    
+    border-radius: ;
+    margin-left: 42%;
 }
 header ul{
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+}
 
 .item{
     border: solid 3px; color: black;
     padding: 0px 5px 0px 5px;
     margin: 20px;
+    width: auto;
 
 }
 
@@ -57,7 +63,33 @@ main img{
     width: 40%;
 }
 
+/* estilos texto */
 
+.totebag1{
+    font-family: 'Kalnia', serif;
+    color: rgb(118, 88, 39);
+
+}
+.cartera{
+    font-family: 'Kalnia', serif;
+    color: rgb(118, 88, 39);
+
+}
+.totebag2{
+    font-family: 'Kalnia', serif;
+    color: rgb(118, 88, 39);
+
+}
+.totebag3{
+    font-family: 'Kalnia', serif;
+    color: rgb(118, 88, 39);
+
+}
+
+/* estilos main img */
+.mainimg1{
+    border-radius: 5%;
+}
 
 /* estilos footer */
 
