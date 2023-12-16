@@ -25,9 +25,8 @@ header nav{
     size: 30px;    
 }
 header img{
-    margin-left: 43%;
     width: 200px;
-    border-radius: 50%
+    border-radius: 5%
     
 }
 header ul{
@@ -54,7 +53,6 @@ nav ul{
 
 header a{
     color: rgb(112, 98, 51)
-text decoration none ;
 }
 
 
@@ -62,6 +60,8 @@ text decoration none ;
 
 main img{
     width: 40%;
+    padding-left: 30%;
+    border-radius: 5%;
 }
 
 /* estilos texto */
@@ -87,9 +87,17 @@ main img{
 
 }
 
+/* estilos logo */
+
+.logo{
+    margin-left: 43%;
+    width: 200px;
+    border-radius: 50%
+}
 /* estilos main img */
+
 .mainimg1{
-    border-radius: 5%;
+    border-radius: 0%;
 }
 
 /* estilos footer */
@@ -98,6 +106,7 @@ main img{
     color: black 
     text-shadow 4px 4px 2px rgba(0,0,0,0.35);
     padding-inline: 4%;
+    margin-left: 38%;
 }
 
 /* estilos tote bags */
