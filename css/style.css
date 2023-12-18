@@ -63,50 +63,49 @@ header a{
 
 /* main de index */
 
-main img{
-    width: 40%;
-    padding-left: 1%;
+.mainimg{
+    width: 100%;
+    height: auto;
+    padding-left: 0%;
     vertical-align: left;
     background-position: left;
+    display: block;
 
     
     
 
+}
+.container{
+    color: darkorange;
+    transform: translate(-20%, -110%);
+    position: absolute;
+    top: 10%
+    font-family: 'Kalnia', serif;
+    overflow: auto;
+    font-size: 80px;
+    text-align: center;
+    padding-left: 90%;
+    
+
+    
+}
+
+.container img {
+  float: left;
+  margin-right: 10px;
+}
+
+.container p {
+  margin-top: 0;
+  text-decoration: none;
 }
 
 /* estilos texto */
-
-h3{}
-.totebag1{
-    font-family: 'Kalnia', serif;
-    color: rgb(118, 88, 39);
-    border-radius: 1%;
-    padding-left: 50%;
-    
-    
-
+p{
+    text-decoration: none;
 }
-.cartera{
-    font-family: 'Kalnia', serif;
-    color: rgb(118, 88, 39);
-    border-radius: 1%;
-    padding-left: 30%;
 
-}
-.totebag2{
-    font-family: 'Kalnia', serif;
-    color: rgb(118, 88, 39);
-    border-radius: 1%;
-    padding-left: 30%;
 
-}
-.totebag3{
-    font-family: 'Kalnia', serif;
-    color: rgb(118, 88, 39);
-    border-radius: 1%;
-    padding-left: 30%;
-
-}
 
 /* estilos logo */
 
@@ -117,6 +116,22 @@ h3{}
 }
 /* estilos main img */
 
+.container{
+    
+    display: flex;
+    align-items: center;
+    padding-left: 41%;
+    
+  }
+  
+  .container img {
+    margin-right: 100px;
+  }
+  
+  .container p {
+    margin-top: 0;
+}
+
 .mainimg{
     background-position: right;
     border-radius: 0%;
@@ -125,8 +140,20 @@ h3{}
 }
 
 /* estilos footer */
+.iconos{
+    justify-content: space-between;
+    width: 50px;
+    height: 50px;
+}
 
-.derechos{
+.redes-sociales{
+    display: inline-block;
+    font-size: 30px;
+    width: 10px;
+    height: 10px;
+}
+
+.derechos {
     text-shadow 4px 4px 2px rgba(0,0,0,0.35);
     padding-inline: 40%;
     background-color: rgb(96, 114, 116);
