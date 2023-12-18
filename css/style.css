@@ -12,6 +12,7 @@
 }
 
 header a{
+    
     background-color: rgb(42, 3, 58)7%, 70% ;
     display: flex;
     flex-direction: column;
@@ -26,10 +27,10 @@ header nav{
     background-image: url(../img/crudo.remeras.jpg);  
     background-position: center;
     
-    
 }
 header img{
     width: 200px;
+    transition: opacity 0.3s ease;
     
 }
 header ul{
@@ -50,7 +51,6 @@ header ul{
     
 }
 
-
 nav ul{
     width: auto;
 
@@ -60,19 +60,14 @@ header a{
     color: rgb(10, 4, 4)
 }
 
-
 /* main de index */
 
 .mainimg{
     width: 100%;
     height: auto;
     padding-left: 0%;
-    vertical-align: left;
     background-position: left;
     display: block;
-
-    
-    
 
 }
 .container{
@@ -82,17 +77,17 @@ header a{
     top: 10%
     font-family: 'Kalnia', serif;
     overflow: auto;
-    font-size: 80px;
+    font-size: 400%;
     text-align: center;
     padding-left: 90%;
     
-
     
 }
 
 .container img {
   float: left;
   margin-right: 10px;
+  
 }
 
 .container p {
@@ -101,11 +96,10 @@ header a{
 }
 
 /* estilos texto */
+
 p{
     text-decoration: none;
 }
-
-
 
 /* estilos logo */
 
@@ -114,6 +108,7 @@ p{
     width: 200px;
     border-radius: 50%
 }
+
 /* estilos main img */
 
 .container{
@@ -140,14 +135,16 @@ p{
 }
 
 /* estilos footer */
+
 .iconos{
-    justify-content: space-between;
+    display: inline-block;
     width: 50px;
     height: 50px;
 }
 
 .redes-sociales{
     display: inline-block;
+    text-align: right
     font-size: 30px;
     width: 10px;
     height: 10px;
@@ -163,5 +160,9 @@ p{
     background-color: rgb(178, 165, 155);
 }
 
-/* estilos tote bags */
+/* card estilos */
 
+.card-img-top{
+    width: 100%;
+    padding-left: 1px;
+}
